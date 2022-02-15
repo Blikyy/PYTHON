@@ -79,7 +79,7 @@ loop_var = tk.BooleanVar()
 play_button = Button(music_player, text = 'Play',  width = 10,font = ('Halvetica', 10), command= play_song)
 pause_button = Button(music_player,text = 'Pause',  width = 10, font = ('Halvetica', 10), command= pause_song)
 stop_button = Button(music_player,text = 'Stop',  width = 10, font = ('Halvetica', 10), command= stop_song)
-volume = Scale(music_player, from_=0, to=1, orient=HORIZONTAL, resolution= .1,length= 300,command=song_volume)
+volume = Scale(music_player, from_=0, to=1, orient=HORIZONTAL, resolution= .01,length= 300,command=song_volume)
 check_button = Checkbutton(music_player, text="LOOP",font=('Verdana', 10),variable= loop_var ,onvalue= TRUE,offvalue= False ,relief= tk.GROOVE)
 check_button.pack()
 

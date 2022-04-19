@@ -5,7 +5,7 @@ class LyKm:
     def Ly_Km(self, num):
         return num * 9460730472580
 
-        """ spočítá kolik světelných let je poček Km který zadáme
+        """ spočítá kolik světelných let je počet Km který zadáme
             pomocí .Ly_Km(počet světelných let)  """
 
     
